@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Badwords</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<div class="container">
+
+    <div class="row">
+
+        <h1>BADWORD FORM</h1>
+        <form action="./php/result.php" method="GET">
+
+            <h2>Parola da censurare</h2>
+            <input type="text" id="badword" name="badword" placeholder="Parola da censurare">
+
+            <h2>Paragrafo</h2>
+            <textarea id="paragraph" name="paragraph" rows="5" cols="50"></textarea>
+
+            <div class="buttons">
+                <button class="bg-green" type="submit">Invia</button>
+                <button class="bg-red" type="reset">Annulla</button>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+<body>
+
+</body>
+
+</html>

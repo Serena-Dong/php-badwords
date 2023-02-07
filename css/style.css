@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* UTILITIES */
+
+h1,
+h2 {
+    margin: 2rem;
+}
+
+.buttons {
+    margin: 2rem;
+}
+
+.buttons>*,
+input {
+    color: white;
+
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px grey solid;
+}
+
+button:hover {
+    background-color: rgb(183, 183, 183);
+    cursor: pointer;
+}
+
+/* VARIABLES */
+.bg-green {
+    background-color: green;
+}
+
+.bg-red {
+    background-color: red;
+}
